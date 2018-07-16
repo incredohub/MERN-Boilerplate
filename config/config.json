@@ -1,0 +1,14 @@
+{
+  "mongoose": {
+    "uri": ""
+  },
+  "session": {
+    "secret": "5af0484T4fdgdfgf1d7d512841Ul6546586c",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
