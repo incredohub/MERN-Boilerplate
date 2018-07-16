@@ -23,8 +23,6 @@ app.use(session({
   store: sessionStore
 }))
 
-app.use(require('./middlewares/loadAdmin'))
-
 app.use(express.static(path.resolve(__dirname, '/client/public')))
 app.use(express.static('client/public'))
 router(app)
